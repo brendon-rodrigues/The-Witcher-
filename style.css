@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+body {
+    background-image: url('assets/the\ witcher\ hell.png');
+    background-size: cover;
+    color: #fff;
+}
+header{
+    display: inline;
+    width: 100%;
+}
+.logo-title{
+    display: inline-block;
+    width: 30%;
+}
+.logo-title img{
+    width: 3vw;
+    margin-left: 85px;
+    margin-top: 20px;
+}
+.logo-title h2{
+    margin-left: 160px;
+    margin-top: -53px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.menu{
+    display: inline-block;
+    width: 43%;
+    margin-left: 325px;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+}
+.menu ul {
+   list-style: none;
+   display: inline-block;
+   margin-left: 10px
+       
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu a:hover {
+    font-weight: bold;
+}
+.list-item {
+    margin-left: 15px;
+    display: inline;
+}
+.list-item: hover{
+    font-weight: bold;
+}
+.container-principal{
+   display: block;
+   width: 35%;
+   background-image: url(assets/the\ witcher\ kavil2.png);
+   background-size: cover;
+   height: 50vw;
+   margin-left: 405px;
+}
+.geralt-img{
+    width: 100%;
+}
+.geralt-img  img{
+    width: 50vw;
+    margin-left: 275px;
+    margin-bottom: 200px;
+}
+.logo-principal img{
+    width: 26vw;
+    margin-left: 65px;
+    margin-top: 312px;
+}
+.botao img{
+    width: 21vw;
+    margin-left: 92px;
+    margin-top: 10px;
+}
